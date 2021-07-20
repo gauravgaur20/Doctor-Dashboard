@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.main{
+    height:100vh;
+    width:80vw;
+
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+
+}
+
+#input{
+    width:60vw;
+    height:7vh;
+    border-right:none;
+    margin-left:10px;
+    margin-top:1px;
+    border:gray
+
+}
+
+.calender{
+    display: flex;
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+/* .coming-appoinment{
+    position: absolute;
+    right: 0;
+
+
+} */
+.appo{
+    position: absolute;
+    right: 0;
+    width: 20%;
+}
+
+.upcoming-appoinment{
+    background-color: rgba(228, 222, 222, 0.753);
+    height:2.6vw;
+
+}
+
+.patients-time{
+    color:grey;
+    padding-left : 15px;
+
+}
+.patients-reports{
+    color:grey;
+    padding-left : 15px;
+}
+
+.patients-name{
+    font-weight: bold;
+    padding-left : 15px;
+
+}
+
+.patients-info{
+    border-left: 3px solid rgb(21, 222, 236);
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+    
+}
+
+.patients1-info{
+    border-left: 3px solid rgb(255, 132, 179);
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+}
+
+
+.patients2-info{
+    border-left: 3px solid yellow;
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+}
+
+
+/* .previous-appoinment{
+    right:0;
+    bottom: 0;
+    position:absolute;
+} */
+.patients3-info{
+    border-left: 3px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+}
+
+
+.patients4-info{
+    border-left: 3px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+}
+
+
+.patients5-info{
+    border-left: 3px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: azure;
+}
+
+
+
+
+
+
+
+
+.top-item{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:23%;
+    height:8vh;
+}
+
+
+.online-patients{
+    
+    height:8vh;
+    width:100%;
+}
+
+.income{
+    width:100%;
+    height:50%;
+    margin-left: 5px;
+    margin-top:50px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+background-color:azure;
+    
+}
+.income-heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:lightblue;
+}
+.income-head{
+    margin:50px;
+    margin-left: 80px;
+    font-family: initial;
+    font-size: 20px;
+    
+}
+.income-rupee{
+    Margin-top:70px;
+    margin-left: 80px;
+    font-family: initial;
+    font-size:40px;
+    display: flex;
+    align-items:center;
+}
+
+
+
+
+.image1{
+    width:2.5%;
+    height:5%;
+    position: absolute;
+    border-radius: 17px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.online-patients{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+height: 70px;
+}
+
+.image2{
+    width:2.3%;
+    height:5%;
+    position: absolute;
+    border-radius: 17px;
+    left:23%;
+    margin-top: 5px;
+}
+
+.image3{
+    width:2.3%;
+    height:5%;
+    position: absolute;
+    border-radius: 17px;
+    left:24.5%;
+    margin-top: 5px;
+}
+
+
+.image4{
+    width:2.3%;
+    height:5%;
+    position: absolute;
+    border-radius: 17px;
+    left:26%;
+    margin-top: 5px;
+}
+
+
+.image5{
+    width:2.7%;
+    height:6%;
+    position: absolute;
+    border-radius: 17px;
+    left:27%;
+    margin-top: 3px;
+}
+.number{
+    position: absolute;
+    left:27.6%;
+    margin-top: 8px;
+}
+
+.view-patients{
+    margin-top:9px;
+    margin-right: 8px;
+    color:rgb(23, 165, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.view-patients:hover{
+    cursor: pointer;
+
+}
+
+
+.income-heading{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: 1px solid lightgrey;
+    height: 30%;
+}
+
+.left{
+    display: flex;
+    
+}
+.all-left{
+    
+    box-sizing: border-box;
+    width: 25%;
+    height: 80vh;
+}
+
+.middle{
+    
+    box-sizing: border-box;
+    width: 48%;
+    height: 80vh;
+}
+
+.first-medicine{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top:10px;
+    border-bottom:1px solid lightgrey;
+    height: 60px;
+
+}
+
+.patients5-name{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    height: 80px;
+}
+.new-patients-info{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+margin-top:10px;
+margin-left:20px;
+margin-right:10px;
+
+}
+
+
+.patients-date{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.patients-bio{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.decises{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:5px;
+    margin-top: 25px;
+    height:10vh;
+}
+
+.medicine{
+    margin-top:21px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+margin-left: 15px;
+margin-right:10px;
+}
+
+.new-patients{
+    
+    margin-top:25px;
+}
+
+.patients-photo{
+    width:33%;
+    height:90%;
+    border-radius:50px;
+    margin-left: 20px;
+}
+
+.dob5{
+    display: flex;
+    flex-direction: column;
+
+}
+.patients-date{
+    
+    margin:5px;
+    margin-top: 25px
+}
+
+.patients-bio{
+    
+    margin:5px;
+    margin-top: 25px
+}
+
+.button{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+width: 40px;
+height:100%;
+}
+
+.patients-full-name{
+    display: flex;
+    flex-direction: column;
+    margin-Right: 230px;
+}
+
+.asam{
+    width: 15%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.hyper{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+.button2{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.66);
+}
